@@ -1,0 +1,106 @@
+{
+  "vendor/tasks/coding-harness-evolution/README.md": {
+    "git_blob_sha1": "c97cba4262c6093830d36c828630dc98cb3ee511",
+    "bytes": 99363
+  },
+  "vendor/tasks/coding-harness-evolution/checksums.sha256": {
+    "git_blob_sha1": "99c5ccca7ec107cbc658fd1789999ff720531ba0",
+    "bytes": 387
+  },
+  "vendor/tasks/coding-harness-evolution/environment/Dockerfile": {
+    "git_blob_sha1": "bf49a2de83f20b3721cc421a81352fba3392f6b5",
+    "bytes": 7561
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/baseline.sh": {
+    "git_blob_sha1": "0c982de0a9c4f7fa8db57336e48b57f08878d42b",
+    "bytes": 938
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/baseline_val_reward.json": {
+    "git_blob_sha1": "11b72e66314c0992b1e44d5f8d488340042b9469",
+    "bytes": 174
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/harness/agent.py": {
+    "git_blob_sha1": "c9418d6b7515fe5862900117b3202eb8f2a9be9c",
+    "bytes": 5209
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/harness/llm.py": {
+    "git_blob_sha1": "bf125d6c5153a32a529a473bd61be87b64c6807a",
+    "bytes": 1955
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/harness/run.py": {
+    "git_blob_sha1": "703b6772a34fa261fd185e58900eef9146cf76a2",
+    "bytes": 944
+  },
+  "vendor/tasks/coding-harness-evolution/environment/baseline/harness/tools.py": {
+    "git_blob_sha1": "22fe768f5f130e07e4c94407a405127317b9d9ba",
+    "bytes": 3173
+  },
+  "vendor/tasks/coding-harness-evolution/environment/data/split.json": {
+    "git_blob_sha1": "75077ce7388c899da52fd73c7187989b4e6faec4",
+    "bytes": 106756
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/__init__.py": {
+    "git_blob_sha1": "61b16128ab98f983bf20af7558b096c83a1d88cf",
+    "bytes": 65
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/canary.py": {
+    "git_blob_sha1": "e5c27b17c4093413eff2499ec86b773ed80cecaa",
+    "bytes": 30502
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/canary_blocks.py": {
+    "git_blob_sha1": "518c3ffe296e2e0b023543e9056a7f92570915ab",
+    "bytes": 50374
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/evaluate.py": {
+    "git_blob_sha1": "2aefa52089823bc49b106023080839d22cd499dd",
+    "bytes": 43643
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/langs.py": {
+    "git_blob_sha1": "3c195109d347cd6ae9864a50941a31fcb9e25a3d",
+    "bytes": 33767
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/netwatch.py": {
+    "git_blob_sha1": "d523d677f7493c825a7e26f856cbaf64adff7a39",
+    "bytes": 25617
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/prepare.py": {
+    "git_blob_sha1": "92fbe70714875734785898953db4b16c9442d1ab",
+    "bytes": 27697
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/proxy.py": {
+    "git_blob_sha1": "43e569363e4745525d0d74dfc2b58d8d98a3ef82",
+    "bytes": 10381
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/sandbox.py": {
+    "git_blob_sha1": "c3aaf465863a4daf790f759ea0d39755201f8038",
+    "bytes": 14701
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/sanitize.py": {
+    "git_blob_sha1": "3599f9c666f69e64f06b47bbf659785f5737a680",
+    "bytes": 63603
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/swe.py": {
+    "git_blob_sha1": "cf837a76cdeb2ce9df37ac32149cff6ed6fb85a1",
+    "bytes": 155876
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/swe_lang.py": {
+    "git_blob_sha1": "e30e789dd55015d066fda4bd5479fc6ef0f42d31",
+    "bytes": 103204
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/runner/testsplit.py": {
+    "git_blob_sha1": "baa2b568290b08edf7786c4b7ef99ac9e5e59abd",
+    "bytes": 28637
+  },
+  "vendor/tasks/coding-harness-evolution/environment/validation/val.sh": {
+    "git_blob_sha1": "79f6ad7c0d7e6b5010914e8cd23a927cf91267eb",
+    "bytes": 2818
+  },
+  "vendor/tasks/coding-harness-evolution/environment/workspace/timer.sh": {
+    "git_blob_sha1": "b5d0a9c988c272c582c21a43e424177325d09a74",
+    "bytes": 1184
+  },
+  "vendor/tasks/coding-harness-evolution/task.toml": {
+    "git_blob_sha1": "567167b3f31f47826c2d0ae4f5aa8fcb277aff1c",
+    "bytes": 10261
+  }
+}

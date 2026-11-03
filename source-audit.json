@@ -1,0 +1,31 @@
+{
+  "source_commit": "034aa5bdbce45f38da0634980c27186e2272c6ea",
+  "development": {
+    "polyglot": 21,
+    "swe": 20,
+    "total": 41
+  },
+  "final": {
+    "familiar_language_exercises": 21,
+    "unseen_language_exercises": 19,
+    "swe": 20,
+    "total": 60
+  },
+  "development_exercise_slug_overlap_with_final": [],
+  "repository_groups": {
+    "dev": {
+      "ansible/ansible": 5,
+      "element-hq/element-web": 5,
+      "flipt-io/flipt": 5,
+      "navidrome/navidrome": 5
+    },
+    "heldout": {
+      "NodeBB/NodeBB": 5,
+      "internetarchive/openlibrary": 5,
+      "gravitational/teleport": 5,
+      "future-architect/vuls": 5
+    }
+  },
+  "source_exclusions": 11
+}
+

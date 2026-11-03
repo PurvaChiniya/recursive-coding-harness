@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "status": "draft_not_evaluated",
+  "source_repository": "scaleapi/rsi-benchmark",
+  "source_commit": "034aa5bdbce45f38da0634980c27186e2272c6ea",
+  "source_path": "tasks/coding-harness-evolution/environment/data/split.json",
+  "model": {
+    "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "revision": "b2cff646eb4bb1d68355c01b18ae02e7cf42d120",
+    "dtype": "bfloat16",
+    "sampling": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "repetition_penalty": 1.05
+    },
+    "context_limit": 16384,
+    "output_limit_per_call": 4096,
+    "completions_per_call": 1,
+    "inflight_calls_per_task": 1,
+    "token_accounting": "All prompt and output tokens, including chat/tool overhead and every retry, replacement, and resampling.",
+    "serving_concurrency": "Freeze after live feasibility validation, before matched baseline."
+  },
+  "development": [
+    {
+      "id": "polyglot/go/bottle-song",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/matrix",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/octal",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/paasio",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/robot-simulator",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/say",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/two-bucket",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/binary",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/bowling",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/killer-sudoku-helper",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/palindrome-products",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/poker",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/state-of-tic-tac-toe",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/sum-of-multiples",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/affine-cipher",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/beer-song",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/dominoes",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/rest-api",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/robot-name",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/sgf-parsing",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/transpose",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "swe/ansible-164881d8",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "ansible/ansible"
+    },
+    {
+      "id": "swe/ansible-5c225dc0",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "ansible/ansible"
+    },
+    {
+      "id": "swe/ansible-9142be2f",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "ansible/ansible"
+    },
+    {
+      "id": "swe/ansible-a7d2a4e0",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "ansible/ansible"
+    },
+    {
+      "id": "swe/ansible-ed6581e4",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "ansible/ansible"
+    },
+    {
+      "id": "swe/element-web-18c03daa",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "element-hq/element-web"
+    },
+    {
+      "id": "swe/element-web-404c412b",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "element-hq/element-web"
+    },
+    {
+      "id": "swe/element-web-5e8488c2",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "element-hq/element-web"
+    },
+    {
+      "id": "swe/element-web-7c63d525",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "element-hq/element-web"
+    },
+    {
+      "id": "swe/element-web-ee13e23b",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "element-hq/element-web"
+    },
+    {
+      "id": "swe/flipt-29d3f9db",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "flipt-io/flipt"
+    },
+    {
+      "id": "swe/flipt-2eac0df4",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "flipt-io/flipt"
+    },
+    {
+      "id": "swe/flipt-7161f7b8",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "flipt-io/flipt"
+    },
+    {
+      "id": "swe/flipt-b2170346",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "flipt-io/flipt"
+    },
+    {
+      "id": "swe/flipt-c12967bc",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "flipt-io/flipt"
+    },
+    {
+      "id": "swe/navidrome-29bc17ac",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "navidrome/navidrome"
+    },
+    {
+      "id": "swe/navidrome-3977ef6e",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "navidrome/navidrome"
+    },
+    {
+      "id": "swe/navidrome-3bc9e75b",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "navidrome/navidrome"
+    },
+    {
+      "id": "swe/navidrome-56303cde",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "navidrome/navidrome"
+    },
+    {
+      "id": "swe/navidrome-de90152a",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "navidrome/navidrome"
+    }
+  ],
+  "final": [
+    {
+      "id": "polyglot/cpp/circular-buffer",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/cpp/clock",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/cpp/linked-list",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/cpp/sublist",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/cpp/yacht",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/cpp/zebra-puzzle",
+      "kind": "polyglot",
+      "language": "cpp",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/go/alphametics",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/connect",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/food-chain",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/hexadecimal",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/protein-translation",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/trinary",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/go/wordy",
+      "kind": "polyglot",
+      "language": "go",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/java/custom-set",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/mazy-mice",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/ocr-numbers",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/phone-number",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/pig-latin",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/series",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/java/twelve-days",
+      "kind": "polyglot",
+      "language": "java",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/javascript/complex-numbers",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/meetup",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/promises",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/rectangles",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/scale-generator",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/space-age",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/javascript/word-search",
+      "kind": "polyglot",
+      "language": "javascript",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/book-store",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/go-counting",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/hangman",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/list-ops",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/pov",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/proverb",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/python/zipper",
+      "kind": "polyglot",
+      "language": "python",
+      "group": "familiar_language"
+    },
+    {
+      "id": "polyglot/rust/accumulate",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/rust/acronym",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/rust/fizzy",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/rust/forth",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/rust/nucleotide-codons",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "polyglot/rust/simple-cipher",
+      "kind": "polyglot",
+      "language": "rust",
+      "group": "unseen_language"
+    },
+    {
+      "id": "swe/NodeBB-05f22361",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "NodeBB/NodeBB"
+    },
+    {
+      "id": "swe/NodeBB-397835a0",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "NodeBB/NodeBB"
+    },
+    {
+      "id": "swe/NodeBB-82562bec",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "NodeBB/NodeBB"
+    },
+    {
+      "id": "swe/NodeBB-bad15643",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "NodeBB/NodeBB"
+    },
+    {
+      "id": "swe/NodeBB-f9ce92df",
+      "kind": "swe",
+      "language": "node",
+      "group": "repository",
+      "repository": "NodeBB/NodeBB"
+    },
+    {
+      "id": "swe/openlibrary-00bec1e7",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "internetarchive/openlibrary"
+    },
+    {
+      "id": "swe/openlibrary-427f1f4e",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "internetarchive/openlibrary"
+    },
+    {
+      "id": "swe/openlibrary-4a5d2a7d",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "internetarchive/openlibrary"
+    },
+    {
+      "id": "swe/openlibrary-dbbd9d53",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "internetarchive/openlibrary"
+    },
+    {
+      "id": "swe/openlibrary-f3b26c2c",
+      "kind": "swe",
+      "language": "python",
+      "group": "repository",
+      "repository": "internetarchive/openlibrary"
+    },
+    {
+      "id": "swe/teleport-1b08e7d0",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "gravitational/teleport"
+    },
+    {
+      "id": "swe/teleport-645afa05",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "gravitational/teleport"
+    },
+    {
+      "id": "swe/teleport-73cc189b",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "gravitational/teleport"
+    },
+    {
+      "id": "swe/teleport-b1bcd8b9",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "gravitational/teleport"
+    },
+    {
+      "id": "swe/teleport-cb712e3f",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "gravitational/teleport"
+    },
+    {
+      "id": "swe/vuls-17ae386d",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "future-architect/vuls"
+    },
+    {
+      "id": "swe/vuls-36456cb1",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "future-architect/vuls"
+    },
+    {
+      "id": "swe/vuls-be7b9114",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "future-architect/vuls"
+    },
+    {
+      "id": "swe/vuls-e1df74cb",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "future-architect/vuls"
+    },
+    {
+      "id": "swe/vuls-edb324c3",
+      "kind": "swe",
+      "language": "go",
+      "group": "repository",
+      "repository": "future-architect/vuls"
+    }
+  ],
+  "regimes": {
+    "tight": {
+      "polyglot_seconds": 150,
+      "swe_seconds": 300,
+      "total_model_tokens": 32768
+    },
+    "standard": {
+      "polyglot_seconds": 300,
+      "swe_seconds": 600,
+      "total_model_tokens": 65536
+    }
+  },
+  "development_repeats": 1,
+  "final_repeats": 3,
+  "scoring": {
+    "development": "equal mean across two budgets and two groups; within familiar_language macro-average languages; within repository macro-average repositories",
+    "final": "equal mean across two budgets and three groups; within exercise groups macro-average languages; within repository macro-average repositories",
+    "selection": "development score only; final data unavailable during evolution"
+  },
+  "seeds": {
+    "development": [
+      0
+    ],
+    "final": [
+      0,
+      1,
+      2
+    ]
+  },
+  "selection": {
+    "checkpoints_hours": [
+      12,
+      24
+    ],
+    "clock": "Elapsed research wall time, including development evaluations and infrastructure time; starts after baseline validation.",
+    "eligible": "Complete valid development evaluations finished by cutoff only.",
+    "criterion": "Highest development score; ties retain earliest completed evaluation, then evaluation ID.",
+    "baseline": "Validated baseline is the initial incumbent at hour zero.",
+    "transfer": "Freeze both checkpoint hashes before any final audit; never select using final outcomes.",
+    "identical_artifacts": "Evaluate each distinct artifact once on the final slice; reuse results when baseline or checkpoints share a hash."
+  },
+  "outcomes": {
+    "pass": "All trusted tests and integrity checks pass.",
+    "fail": "Wrong patch or candidate-attributable compilation/process failure.",
+    "budget_exhausted": "Grade the resulting patch with trusted tests; record exhaustion separately from pass/fail.",
+    "invalid": "Malformed artifact or confirmed tampering: entire evaluation unscored.",
+    "infrastructure_error": "Serving, isolation, asset, or evaluator failure: entire evaluation unscored.",
+    "incomplete": "Missing attempts or a partial debug run: entire evaluation unscored."
+  },
+  "plots": {
+    "required": [
+      "evolution_12h",
+      "evolution_24h"
+    ],
+    "series": [
+      "Every completed full development evaluation",
+      "Best development score available so far",
+      "Fixed matched baseline"
+    ],
+    "scope": "Two prefixes of the same 24-hour run; no forecast or interpolation of unobserved evaluations.",
+    "transfer": "Separate report for baseline and frozen 12h/24h artifacts after evolution."
+  }
+}
